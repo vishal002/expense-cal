@@ -1,22 +1,29 @@
-.App {
-  text-align: center;
+.custom-jumbotron{
+  margin-top: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
+.custom-jumbotron h2{
+  margin-top: 0px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dashboard{
+  padding: 20px;
 }
 
-.App-link {
-  color: #09d3ac;
+.date-input-box{
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+.amount-input-box{
+  padding-left: 5px;
+  padding-right: 0px;
+}
+
+.debited-color{
+  background-color: #f0ad4e;
+}
+
+.credited-color{
+  background-color: #5bc0de;
 }
